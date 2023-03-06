@@ -3,9 +3,13 @@ const { response } = require('express')
 let express = require('express')
 let mongoose = require('mongoose')
 let song = require('./song')
+let cors = require('cors')
 
 //create express app
 let app = express()
+
+//configure cors
+app.use(cors())
 
 //configure express app to parse incoming request payload
 //in JSON format
