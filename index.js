@@ -38,7 +38,7 @@ app.get("/", (request, response)=>{
 app.get("/welcome", (request, response)=>{
     console.log("Request received....GET")
     console.log(request.url)
-    response.send("<h1>Welcome to Express API!</h1>")
+    response.send("<h1>Welcome to Express API on Cyclic!</h1>")
 })
 
 /*
@@ -54,7 +54,8 @@ app.get("/help", (request, response)=>{
         status:"Success",
         request_type:"GET",
         message:"Send email to prafful@airasia.com",
-        meaning:"I will retrieve the single/list of data from the server"
+        meaning:"I will retrieve the single/list of data from the server",
+        progress:"API is deployed on cyclic!"
     })
 })
 
