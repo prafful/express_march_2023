@@ -120,7 +120,8 @@ app.delete("/help", (request, response)=>{
         status:"Success",
         request_type:"DELETE",
         message:"Send email to prafful@airasia.com",
-        meaning:"I will delete a data from the server"
+        meaning:"I will delete a data from the server",
+        progress:"API is deployed on cyclic!"
     })
 })
 
