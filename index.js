@@ -38,7 +38,7 @@ app.get("/", (request, response)=>{
 app.get("/welcome", (request, response)=>{
     console.log("Request received....GET")
     console.log(request.url)
-    response.send("<h1>Welcome to Express API!</h1>")
+    response.send("<h1>Welcome to Express API on Cyclic!</h1>")
 })
 
 /*
